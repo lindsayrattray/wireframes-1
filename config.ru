@@ -1,7 +1,7 @@
 use Rack::Static, 
   :urls => ["/data",
             "/plugins", "/plugins/page_notes", "/plugins/page_notes/styles", "/plugins/sitemap", "/plugins/sitemap/styles", "/plugins/sitemap/styles/images", 
-            "/resources", "resources/chrome", "/resources/css", "/resources/css/images", "/resources/images", "/resources/scripts",
+            "/resources/", "resources/chrome", "/resources/css", "/resources/css/images", "/resources/images", "/resources/scripts",
             "/teacher_class_files"],
   :root => "/"
 
